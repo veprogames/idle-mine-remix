@@ -418,7 +418,7 @@ var functions =
         },
         payUSDebt: function()
         {
-            if(game.money.lt(22e12))
+            if(game.money.lt(34e12))
             {
                 alert("You can't afford to pay off the debt right now.")
             }
